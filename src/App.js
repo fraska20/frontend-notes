@@ -9,6 +9,7 @@ import TutorialsList from "./components/tutorials-list.component";
 
 class App extends Component {
   render() {
+    console.log(process.env.REACT_APP_API_BASE_URL);
     return (
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
